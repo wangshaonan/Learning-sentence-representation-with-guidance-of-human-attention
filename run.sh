@@ -1,0 +1,1 @@
+THEANO_FLAGS=mode=FAST_RUN,device=cpu,floatX=float32 python train.py -wordstem simlex -wordfile paragram-phrase-XXL.txt -outfile word-pos-model -updatewords False -dim 300 -traindata ../data/data.pos -layersize 300 -save False -nntype word -evaluate True -epochs 10 -minval 1 -maxval 5 -traintype normal -batchsize 25 -LW 1e-05 -LC 1e-06 -memsize 50 -learner adagrad -eta 0.05

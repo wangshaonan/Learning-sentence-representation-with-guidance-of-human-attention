@@ -1,0 +1,7 @@
+Code for paper 'Learning sentence representation with guidance of human attention'
+This code is modified from https://github.com/jwieting/iclr2016, and we add attention models over word(averaging) model and lstm model
+This is the training code for learning POS tag vectors and CCG supertag vectors and you can get the attention value together with word embeddings
+
+#piplilne
+./run.sh
+python evaluation_attention.py
